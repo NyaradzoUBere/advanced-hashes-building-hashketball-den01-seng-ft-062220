@@ -9,7 +9,7 @@ home_player_1 = {
   :assists => 12,
   :steals => 3,
   :blocks => 1,
-  :slam_dunks => 1,
+  :slam_dunks => 1
 }
 
 home_player_2 = {
@@ -21,7 +21,7 @@ home_player_2 = {
   :assists => 12,
   :steals => 12,
   :blocks => 12,
-  :slam_dunks => 7,
+  :slam_dunks => 7
 }
 
 home_player_3 = {
@@ -33,7 +33,7 @@ home_player_3 = {
   :assists => 10,
   :steals => 3,
   :blocks => 1,
-  :slam_dunks => 5,
+  :slam_dunks => 5
 }
 
 home_player_4 = {
@@ -45,7 +45,7 @@ home_player_4 = {
   :assists => 6,
   :steals => 3,
   :blocks => 8,
-  :slam_dunks => 5,
+  :slam_dunks => 5
 }
 
 home_player_5 = {
@@ -57,7 +57,7 @@ home_player_5 = {
   :assists => 2,
   :steals => 4,
   :blocks => 11,
-  :slam_dunks => 1,
+  :slam_dunks => 1
 }
 
 away_player_1 = {
@@ -69,7 +69,7 @@ away_player_1 = {
   :assists => 1,
   :steals => 2,
   :blocks => 7,
-  :slam_dunks => 2,
+  :slam_dunks => 2
 }
 
 away_player_2 = {
@@ -81,7 +81,7 @@ away_player_2 = {
   :assists => 7,
   :steals => 22,
   :blocks => 15,
-  :slam_dunks => 10,
+  :slam_dunks => 10
 }
 
 away_player_3 = {
@@ -93,7 +93,7 @@ away_player_3 = {
   :assists => 12,
   :steals => 4,
   :blocks => 5,
-  :slam_dunks => 5,
+  :slam_dunks => 5
 }
 
 away_player_4 = {
@@ -105,7 +105,7 @@ away_player_4 = {
   :assists => 2,
   :steals => 1,
   :blocks => 1,
-  :slam_dunks => 0,
+  :slam_dunks => 0
 }
 
 away_player_5 = {
@@ -117,10 +117,11 @@ away_player_5 = {
   :assists => 12,
   :steals => 7,
   :blocks => 5,
-  :slam_dunks => 12,
+  :slam_dunks => 12
 }
 
-def game_hash {
+def game_hash 
+  {
   :home => {
     :team_name => "Brooklyn Nets",
     :colors => ["Black", "White"],
