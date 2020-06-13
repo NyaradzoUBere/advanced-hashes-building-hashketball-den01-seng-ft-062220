@@ -122,18 +122,18 @@ away_player_5 = {
 
 def game_hash 
   {
-  :home => {
-    :team_name => "Brooklyn Nets",
-    :colors => ["Black", "White"],
-    :players => [home_player_1, home_player_2, home_player_3, home_player_4, home_player_5]
-  },
-  :away => {
-    :team_name => "Charlotte Hornets",
-    :colors => ["Turquoise", "Purple"],
-    :players => [away_player_1, away_player_2, away_player_3, away_player_4, away_player_5]
+    :home => {
+      :team_name => "Brooklyn Nets",
+      :colors => ["Black", "White"],
+      :players => [home_player_1, home_player_2, home_player_3, home_player_4, home_player_5]
+    },
+    :away => {
+      :team_name => "Charlotte Hornets",
+      :colors => ["Turquoise", "Purple"],
+      :players => [away_player_1, away_player_2, away_player_3, away_player_4, away_player_5]
+    }
   }
-}
-}
+  }
 end
 
 
