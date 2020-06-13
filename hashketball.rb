@@ -132,7 +132,7 @@ def game_hash
       :colors => ["Turquoise", "Purple"],
       :players => [away_player_1, away_player_2, away_player_3, away_player_4, away_player_5]
     }
-  game_hash
+  
 }
 end
 
