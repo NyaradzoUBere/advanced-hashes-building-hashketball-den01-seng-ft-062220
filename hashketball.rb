@@ -133,7 +133,7 @@ def game_hash
       :players => [away_player_1, away_player_2, away_player_3, away_player_4, away_player_5]
     }
   }
-  }
+}
 end
 
 
