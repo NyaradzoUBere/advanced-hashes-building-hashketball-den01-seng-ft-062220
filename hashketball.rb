@@ -247,7 +247,6 @@ def game_hash
 end
 
 
-puts game_hash[:home][:players][0][:points]
 
 
 
